@@ -11,4 +11,10 @@ class OneOf:
 
 
 class BurgerRecipe:
-    pass
+    def __init__(self, cheese, tomatoes, cutlets, eggs, buns, sauce):
+        self.cheese = cheese
+        self.tomatoes = tomatoes
+        self.cutlets = cutlets
+        self.eggs = eggs
+        self.buns = buns
+        self.sauce = sauce
